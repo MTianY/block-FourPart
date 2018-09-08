@@ -29,6 +29,7 @@
 		4C22C6792141E53900FA9E56 /* TYPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYPerson.h; sourceTree = "<group>"; };
 		4C22C67A2141E53900FA9E56 /* TYPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYPerson.m; sourceTree = "<group>"; };
 		4C22C67C2141EA2300FA9E56 /* main1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main1.cpp; sourceTree = "<group>"; };
+		4C22C67D2143D91200FA9E56 /* main2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main2.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				4C22C67C2141EA2300FA9E56 /* main1.cpp */,
+				4C22C67D2143D91200FA9E56 /* main2.cpp */,
 				4C22C6722141E4FC00FA9E56 /* main.m */,
 				4C22C6792141E53900FA9E56 /* TYPerson.h */,
 				4C22C67A2141E53900FA9E56 /* TYPerson.m */,

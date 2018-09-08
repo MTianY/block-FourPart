@@ -12,4 +12,6 @@ typedef void(^Test1Block)(void);
 @interface TYPerson : NSObject
 @property (nonatomic, copy) Test1Block test1Block;
 @property (nonatomic, assign) int age;
+
+
 @end

@@ -13,15 +13,35 @@ int main(int argc, const char * argv[]) {
     
     @autoreleasepool {
         
+//        {
+//            TYPerson *person = [TYPerson new];
+//            person.age = 20;
+//
+////            __weak TYPerson *weakPerson = person;
+////            __unsafe_unretained TYPerson *weakPerson = person;
+//            __weak typeof(person) weakPerson = person;
+//            person.test1Block = ^{
+//                NSLog(@"age = %d",weakPerson.age);
+//            };
+//
+//
+//        }
+        
         {
-            TYPerson *person = [TYPerson new];
+            __block TYPerson *person = [TYPerson new];
             person.age = 20;
+            
             person.test1Block = ^{
                 NSLog(@"age = %d",person.age);
+                person = nil;
             };
+            person.test1Block();
+            
         }
-        
+       
         NSLog(@"-------");
+        
+        
         
     }
 
